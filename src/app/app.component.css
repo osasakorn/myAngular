@@ -1,0 +1,28 @@
+nav{
+    background-color: yellow;
+}
+:host {
+    padding: 20px;
+  }
+a:link {
+    color: rgb(74, 11, 247);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(74, 11, 247);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(243, 0, 0);
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(255, 115, 0);
+    text-decoration: underline;
+}
+.test a{
+    display : inline-block;
+    border: 1px solid palevioletred;
+
+    padding: 20px;
+}
